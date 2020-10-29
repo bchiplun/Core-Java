@@ -5,6 +5,7 @@ public class FirstJavaCode
 	{
 		System.out.print("Hello World\n");
 		System.out.print("Some Changes!");
+		System.out.print("Some more Changes!");
 	}
 
 }
