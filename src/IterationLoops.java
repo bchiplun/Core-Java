@@ -25,6 +25,7 @@ public class IterationLoops {
 		/*
 		 * Printing pattern 2
 		 */
+		//Some CHanges
 		
 		for(int i=65; i<=65+n; i++)
 		{
