@@ -25,6 +25,7 @@ public class IterationLoops {
 		/*
 		 * Printing pattern 2
 		 */
+<<<<<<< HEAD
 		//Some CHanges
 		
 		for(int i=65; i<=65+n; i++)
@@ -69,3 +70,47 @@ public class IterationLoops {
 
 }
 
+=======
+		
+		for(int i=65; i<=65+n; i++)
+		{
+			for(int j=65; j<=i; j++)
+			{
+				System.out.print((char)j+" ");
+			}
+			System.out.print("\r");
+		}
+		
+		System.out.println("*********************");
+		
+		
+		/*
+		 * Printing pattern 3
+		 */
+		
+		n = 5;
+		for(int i=1; i<=n; i++)
+		{
+			for(int j=1; j<=n; j++)
+			{
+				if(i!=1 && i!=n)
+				{
+					if(j!=1 && j!=n)
+					{
+						System.out.print("  ");
+						continue;
+					}
+				}
+				System.out.print("* ");
+			}
+			System.out.print("\r");
+		}
+		
+		System.out.println("*********************");
+		
+		//
+
+	}
+
+}
+>>>>>>> branch 'master' of https://github.com/bchiplun/Core-Java.git
