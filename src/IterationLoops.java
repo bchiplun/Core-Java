@@ -25,7 +25,7 @@ public class IterationLoops {
 		/*
 		 * Printing pattern 2
 		 */
-<<<<<<< HEAD
+
 		//Some CHanges
 		
 		for(int i=65; i<=65+n; i++)
@@ -66,11 +66,7 @@ public class IterationLoops {
  		
 		//
 
-	}
 
-}
-
-=======
 		
 		for(int i=65; i<=65+n; i++)
 		{
@@ -113,4 +109,4 @@ public class IterationLoops {
 	}
 
 }
->>>>>>> branch 'master' of https://github.com/bchiplun/Core-Java.git
+
