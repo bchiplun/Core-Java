@@ -10,9 +10,15 @@ public class ArraysExample {
 		a[0] = 1;
 		a[1] = 2;
 		
-		for(int i=0; i<4; i++)
+//		for(int i=0; i<4; i++)
+//		{
+//			System.out.println(a[i]);
+//		}
+		//Creating enhanced for loop for array
+		
+		for (int i: a)
 		{
-			System.out.println(a[i]);
+			System.out.println(i);
 		}
 		
 		System.out.println("**********\n");
@@ -28,17 +34,28 @@ public class ArraysExample {
 		
 		// Printing 2-D array
 		
-		for(int i=0; i<3; i++)
+//		for(int i=0; i<3; i++)
+//		{
+//			for(int j=0; j<4; j++)
+//			{
+//				System.out.print(b[i][j]);
+//			}
+//			System.out.println();
+//		}
+		
+		
+		//Enhanced for loop for arrays
+		for (int i[]: b)
 		{
-			for(int j=0; j<4; j++)
+			for (int j : i)
 			{
-				System.out.print(b[i][j]);
+				System.out.print(" "+j);
 			}
 			System.out.println();
 		}
+		
+		
 		System.out.println("**********\n");
-		
-		
 		// Creating jagged array
 		
 		int c[][] = {
@@ -48,15 +65,26 @@ public class ArraysExample {
 		            };
 		// Printing jagged array
 		
-		for(int i=0; i<c.length; i++)
+//		for(int i=0; i<c.length; i++)
+//		{
+//			for(int j=0; j<c[i].length; j++)
+//			{
+//				System.out.print(c[i][j]);
+//			}
+//			System.out.println();
+//		}
+		for (int i[]: c)
 		{
-			for(int j=0; j<c[i].length; j++)
+			for (int j : i)
 			{
-				System.out.print(c[i][j]);
+				System.out.print(" "+j);
 			}
 			System.out.println();
 		}
+		
 		System.out.println("**********\n");
+		
+		
 
 	}
 
